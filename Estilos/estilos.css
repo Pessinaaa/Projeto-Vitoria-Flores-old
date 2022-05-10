@@ -1,0 +1,90 @@
+/*LOGOTIPO*/
+#logo {
+    width: 40%;
+    height: auto;
+}
+/*ESTRUTURA BÁSICA*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    min-height: 90vh;
+    background-color: #E17573;
+    padding-top: 3vh;
+    padding-bottom: 7vh;
+}
+#rodape{
+    background-color: #5C302F;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+/*MENUS DE NAVEGAÇÃO*/
+    /*PRINCIPAL*/
+#menu{
+    list-style: none;
+    background-color: #DB312D;
+    text-align: center;
+}
+#menu li{
+    display: inline;
+}
+#menu li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+}
+#menu li a:hover{
+    background-color: #5C1413;
+    transition: 0.5s;
+}
+    /*GALERIA*/
+#navegacao-galeria{
+    list-style: none;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #E17573;
+}
+#navegacao-galeria li{
+    display: inline;
+}
+#navegacao-galeria li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+}
+/*GALERIA DE IMAGENS*/
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw 5vh;
+}
+.itens-galeria{
+    width: 340px;
+    height: 340px;
+    border: 6px solid #FFF;
+    box-shadow: 5px 5px 5px #0006;
+    flex-grow: 1;
+    transition: transform .2s linear;
+}
+.itens-galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.itens-galeria:hover{
+    transform: scale(1.03);
+}
+.categorias-galeria{
+    padding: 2vh;
+    color: white;
+}
