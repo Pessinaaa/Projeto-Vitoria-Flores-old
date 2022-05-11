@@ -1,32 +1,42 @@
 /*LOGOTIPO*/
 #logo {
-    width: 40%;
+    width: 15vw;
     height: auto;
+    padding: 1vh;
 }
 /*ESTRUTURA BÁSICA*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    background-color: rgb(255, 230, 230, 0.25);
 }
 #main{
     min-height: 90vh;
-    background-color: #E17573;
+    background: linear-gradient(to bottom, rgb(255, 230, 230, 0.5), #F3BFBE);
     padding-top: 3vh;
     padding-bottom: 7vh;
+    font-size: 1rem;
 }
 #rodape{
-    background-color: #5C302F;
+    background-color: #BF6B7B;
     text-align: center;
-    font-size: 14px;
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
+    font-size: 0.85rem;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+/*ELEMENTOS*/
+h1{
+    font-size: 1.5rem;
 }
 /*MENUS DE NAVEGAÇÃO*/
     /*PRINCIPAL*/
 #menu{
     list-style: none;
-    background-color: #DB312D;
+    background-color: #E0A8B4;
     text-align: center;
 }
 #menu li{
@@ -39,7 +49,7 @@
     padding: 10px 30px 10px 30px;
 }
 #menu li a:hover{
-    background-color: #5C1413;
+    background-color: #F0BFCC;
     transition: 0.5s;
 }
     /*GALERIA*/
@@ -49,7 +59,7 @@
     position: sticky;
     top: 0;
     padding: 5px;
-    background-color: #E17573;
+    background-color: rgb(224, 168, 180, 0.75);
 }
 #navegacao-galeria li{
     display: inline;
@@ -71,7 +81,7 @@
 .itens-galeria{
     width: 340px;
     height: 340px;
-    border: 6px solid #FFF;
+    border: 4px solid #FFF;
     box-shadow: 5px 5px 5px #0006;
     flex-grow: 1;
     transition: transform .2s linear;
@@ -82,9 +92,10 @@
     object-fit: cover;
 }
 .itens-galeria:hover{
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 .categorias-galeria{
     padding: 2vh;
-    color: white;
+    color: #BF6B7B;
+    text-shadow: 1px 1px 0 #000;
 }
