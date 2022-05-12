@@ -59,7 +59,7 @@ h1{
     position: sticky;
     top: 0;
     padding: 5px;
-    background-color: rgb(224, 168, 180, 0.75);
+    z-index: 1;
 }
 #navegacao-galeria li{
     display: inline;
@@ -93,6 +93,7 @@ h1{
 }
 .itens-galeria:hover{
     transform: scale(1.02);
+    z-index: 0;
 }
 .categorias-galeria{
     padding: 2vh;
