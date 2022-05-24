@@ -100,3 +100,14 @@ h1{
     color: #BF6B7B;
     text-shadow: 1px 1px 0 #000;
 }
+#divmapa{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 5vh 0;
+}
+#mapa{
+    width: 90vw;
+    height: 70vh;
+    border: 0;
+}
