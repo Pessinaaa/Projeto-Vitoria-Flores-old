@@ -15,11 +15,15 @@
     background-color: rgb(255, 230, 230, 0.25);
 }
 #main{
-    min-height: 90vh;
+    min-height: 60vh;
     background: linear-gradient(to bottom, rgb(255, 230, 230, 0.5), #F3BFBE);
     padding-top: 3vh;
     padding-bottom: 7vh;
-    font-size: 1rem;
+    font-size: 1.1rem;
+}
+#main p{
+    padding-left: 12vw;
+    padding-right: 12vw;
 }
 #rodape{
     background-color: #BF6B7B;
@@ -30,7 +34,9 @@
 }
 /*ELEMENTOS*/
 h1{
-    font-size: 1.5rem;
+    padding-left: 10vw;
+    font-size: 1.35rem;
+    padding-bottom: 2rem;
 }
 /*MENUS DE NAVEGAÇÃO*/
     /*PRINCIPAL*/
@@ -104,7 +110,7 @@ h1{
     display: flex;
     align-self: center;
     justify-content: center;
-    padding: 5vh 0;
+    padding: 2vh 0 5vh 0;
 }
 #mapa{
     width: 90vw;
